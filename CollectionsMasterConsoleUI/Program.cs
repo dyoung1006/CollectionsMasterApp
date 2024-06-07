@@ -22,8 +22,9 @@ namespace CollectionsMasterConsoleUI
             Populater(ints);
 
             //TODO: Print the first number of the array
-            Console.WriteLine($"{ints[0].ToString(): null}");
+            Console.WriteLine($"{ints.FirstOrDefault()}");
             //TODO: Print the last number of the array            
+            Console.WriteLine($"{ints.LastOrDefault()}");
 
             Console.WriteLine("All Numbers Original");
             //UNCOMMENT this method to print out your numbers from arrays or lists
